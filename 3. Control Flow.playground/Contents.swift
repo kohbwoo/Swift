@@ -64,6 +64,8 @@ for (_, numbers) in interestingNumbers {
 }
 print("largest: \(largest)")
 
+
+//일반적인 while
 var n = 2
 while n < 100{
     print("n: \(n)")
@@ -71,12 +73,16 @@ while n < 100{
 }
 print("while end n: \(n)")
 
+
+//조건이 끝에 있기 때문에 초기 한번은 실행되는 while
 var m = 2
 repeat {
     print("m: \(m)")
     m *= 2
 } while m < 100
 print("repeat end m: \(m)")
+
+
 
 var total = 0
 //A...B: A부터B까지, A..<B: A부터 B-1까지
