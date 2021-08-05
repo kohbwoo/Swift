@@ -35,3 +35,55 @@ func calculateStatistics(scores: [Int]) ->(min: Int, max: Int, sum: Int){
 print(calculateStatistics(scores: [5,3,100,3,9]))
 
 
+
+//함수 중첩 가능
+func returnFifteen() -> Int{
+    var y = 10
+    func add(){
+        y += 5
+    }
+    add()
+    return y
+}
+print(returnFifteen())
+
+func makeIncrementer() -> ((Int) -> Int) {
+    func addOne(number: Int) -> Int{
+        print("number: \(number)")
+        return 1 + number
+    }
+    return addOne
+}
+
+var increment = makeIncrementer()
+print(increment(7))
+
+
+//numbers 중 lessThanTen 조건을 만족하는 요소가 있는지 판단하는 함수
+func hasAnyMatches(list: [Int], condition: (Int) -> Bool) -> Bool
+{
+    print("list \(list)")
+    for item in list {
+        print("item\(item), list\(list)")
+        if condition(item){
+            return true
+        }
+    }
+    return false
+}
+func lessThanTen(number: Int) -> Bool{
+    return number < 10
+}
+
+var numbers = [20,19,7,12]
+print(hasAnyMatches(list: numbers, condition: lessThanTen))
+
+
+numbers.map({ (number: Int) -> Int in
+    let result = 3 * number
+    return result
+})
+
+let sortedNumbers = numbers.sorted{ $0 > $1 }
+
+print(sortedNumbers)
