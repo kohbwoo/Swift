@@ -11,6 +11,7 @@
 		BC1C904F26BA5D31007B743F /* 2. Simple Values.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2. Simple Values.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BC1C905126BA69C7007B743F /* 3. Control Flow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3. Control Flow.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BC2072FB26BAD31D00359A07 /* 4. Functions and Closuers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4. Functions and Closuers.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BC63B8A526C0A87400F05F6B /* 7. Protocols and Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7. Protocols and Extensions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BCC4993126BD9A39009660F0 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BCC7231726BBBC3A006741D5 /* 5. Objects and Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5. Objects and Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BCED86A326BCFA010050729C /* 6. Enumerations and Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6. Enumerations and Structures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -26,6 +27,7 @@
 				BC2072FB26BAD31D00359A07 /* 4. Functions and Closuers.playground */,
 				BCC7231726BBBC3A006741D5 /* 5. Objects and Classes.playground */,
 				BCED86A326BCFA010050729C /* 6. Enumerations and Structures.playground */,
+				BC63B8A526C0A87400F05F6B /* 7. Protocols and Extensions.playground */,
 				BCC4993126BD9A39009660F0 /* test.playground */,
 			);
 			sourceTree = "<group>";
