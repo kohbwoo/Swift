@@ -14,6 +14,7 @@
 		BC63B8A526C0A87400F05F6B /* 7. Protocols and Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7. Protocols and Extensions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BCC4993126BD9A39009660F0 /* test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BCC7231726BBBC3A006741D5 /* 5. Objects and Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5. Objects and Classes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BCCD41C126C5FD8500100CFB /* 8. Error Handling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "8. Error Handling.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BCED86A326BCFA010050729C /* 6. Enumerations and Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6. Enumerations and Structures.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -28,6 +29,7 @@
 				BCC7231726BBBC3A006741D5 /* 5. Objects and Classes.playground */,
 				BCED86A326BCFA010050729C /* 6. Enumerations and Structures.playground */,
 				BC63B8A526C0A87400F05F6B /* 7. Protocols and Extensions.playground */,
+				BCCD41C126C5FD8500100CFB /* 8. Error Handling.playground */,
 				BCC4993126BD9A39009660F0 /* test.playground */,
 			);
 			sourceTree = "<group>";
